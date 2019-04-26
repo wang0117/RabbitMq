@@ -14,7 +14,7 @@ public class RabbitUtils {
     private static ConnectionFactory connectionFactory = new ConnectionFactory();
     static{
         connectionFactory.setHost("192.168.100.183");
-        connectionFactory.setPort(5672);  //5672是RabbitMQ的默认通信端口号
+        connectionFactory.setPort(5672);  //15672是RabbitMQ的默认通信端口号
         connectionFactory.setUsername("wang");
         connectionFactory.setPassword("123456");
         connectionFactory.setVirtualHost("/test");
