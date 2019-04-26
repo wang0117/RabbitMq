@@ -14,5 +14,5 @@ public class RabbitConstant {
     public static final String QUEUE_BAIDU = "baidu";
     public static final String QUEUE_SINA = "sina";
     public static final String ROUTING ="route";
-    
+    public static final String TOPIC ="topic";
 }
